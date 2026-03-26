@@ -1,0 +1,98 @@
+body {
+  background: #f6f7fb;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  color: #6b8fcf;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  margin-top: 20px;
+  border-radius: 18px;
+  padding: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.day {
+  border: 1px solid #c8d6f0;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  background: #eef3ff;
+}
+
+.task-card {
+  border-left: 6px solid #8fb3ff;
+  background: #f0f4ff;
+  padding: 12px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.task-card.alta {
+  border-left: 6px solid #ff7a7a;
+}
+
+.task-card.media {
+  border-left: 6px solid #ffd166;
+}
+
+.task-card.baixa {
+  border-left: 6px solid #7ed6a7;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid #c8d6f0;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 12px;
+  background: #8fb3ff;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #6b8fcf;
+}
+
+.empty {
+  text-align: center;
+  color: #8aa4d6;
+}
+
+.letras {
+    color: #6b8fcf;
+}
